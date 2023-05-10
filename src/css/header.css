@@ -4,5 +4,5 @@
 
 .address__link:hover,
 .address__link:focus {
-  color: green;
+  color: var(--text-color-activ);
 }

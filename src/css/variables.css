@@ -1,0 +1,16 @@
+:root {
+  --bg-main: #000000;
+
+  --text-color-main: rgba(243, 243, 243, 1);
+  --text-color-hero-accent: rgba(188, 26, 26, 0.71);
+  --text-color-activ: rgba(188, 26, 26, 0.5);
+  --buttons-color: rgba(188, 26, 26, 0.2);
+  --buttons-color-activ: rgba(188, 26, 26, 0.5);
+
+  --bg-linear-gradient: linear-gradient(
+    228.52deg,
+    rgba(111, 102, 102, 0.9) 4.71%,
+    rgba(16, 15, 15, 0.9) 39.77%,
+    rgba(16, 15, 15, 0.9) 44.21%
+  );
+}

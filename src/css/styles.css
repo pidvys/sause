@@ -5,6 +5,7 @@
   |============================
 */
 @import url('./reset.css');
+@import url('./variables.css');
 @import url('./vite-promo.css');
 @import url('./header.css');
 @import url('./container.css');
