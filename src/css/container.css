@@ -1,5 +1,39 @@
-.container {
+/* .container {
   width: 1110px;
   margin-right: auto;
   margin-left: auto;
+} */
+
+/* Phone styles and > */
+.container {
+  min-width: 320px;
+  max-width: 415px;
+
+  margin-right: auto;
+  margin-left: auto;
+
+  padding-left: 15px;
+  padding-right: 15px;
+
+  outline: 2px solid red;
+}
+
+/* Tablet and > */
+@media screen and (min-width: 1020px) {
+  .container {
+      max-width: 1020px;
+
+      padding-left: 47px;
+      padding-right: 47px;
+  }
+}
+
+/* Desktop and > */
+@media screen and (min-width: 1280px) {
+  .container {
+      max-width: 1110px;
+
+      padding-left: 85px;
+      padding-right: 85px;
+  }
 }
